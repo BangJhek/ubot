@@ -1205,11 +1205,11 @@ async def gtfo(e):
 @register(outgoing=True, pattern="^.nih$")
 async def nih(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`\n(\__/)`"
+        await e.edit("`\n(\_/)`"
                      "`\n(●_●)`"
                      "`\n />🌹 *ini buat kamu`"
                      "`\n                    `"
-                     "`\n(\__/)`"
+                     "`\n(\_/)`"
                      "`\n(●_●)`"
                      "`\n🌹<\  *tapi boong`")
 
