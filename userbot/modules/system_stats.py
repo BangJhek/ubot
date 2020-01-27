@@ -123,19 +123,18 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit(""
-		     "~~~~~~~~~~~~~~~~~~~~~~~~ \n"
-                     "     🍭안녕하세요🍭 \n"
-                     "~~~~~~~~~~~~~~~~~~~~~~~~ \n"
-                     "     My Detail Ubot \n"
+		     "======================== \n"
+                     "    🍭안녕하세요🍭 \n"
+                     "======================== \n"
+                     "    My Detail Ubot \n"
                      f"Telethon : v{version.__version__} \n"
                      f"Python : v{python_version()} \n"
 	             "Anu anu the best \n"
                      f"User : {DEFAULTUSER} \n\n"
-		     "       묘이 미나😘 \n"
-		     "~~~~~~~~~~~~~~~~~~~~~~~~ \n"
-                     "   💖좋은 하루 되세요💖"
-                     " \n"
-                     "")    
+		     "      묘이 미나😘\n"
+		     "======================== \n"
+                     "  💖좋은 하루 되세요💖\n"
+                     "     Minari Empire \n")    
 
 
 
